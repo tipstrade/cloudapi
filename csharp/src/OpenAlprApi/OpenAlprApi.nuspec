@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TipsTrade-OpenAlprApi-Net</id>
+    <version>$version$</version>
+    <title>OpenAlprApi</title>
+    <authors>openalpr</authors>
+    <owners>openalpr</owners>
+    <licenseUrl>https://github.com/openalpr/cloudapi/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/openalpr/cloudapi</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OpenAlprApi - the C# library for the OpenALPR Cloud API</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>openalpr, alpr</tags>
+  </metadata>
+</package>
