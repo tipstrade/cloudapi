@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TipsTrade-OpenAlprApi-Net</id>
-    <version>$version$-r1</version>
+    <version>$version$-r2</version>
     <title>OpenAlprApi</title>
     <authors>openalpr</authors>
     <owners>openalpr</owners>
@@ -15,8 +15,8 @@
     <copyright>Copyright 2018</copyright>
     <tags>openalpr, alpr</tags>
     <dependencies>
-      <dependency id="RestSharp" version="105.1.0" />
-      <dependency id="Newtonsoft.Json" version="8.0.3" />
+      <dependency id="RestSharp" version="106.2.1" />
+      <dependency id="Newtonsoft.Json" version="11.0.2" />
     </dependencies>
   </metadata>
 </package>
