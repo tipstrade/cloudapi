@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TipsTrade-OpenAlprApi-Net</id>
-    <version>$version$-r2</version>
+    <version>$version$-r3</version>
     <title>OpenAlprApi</title>
     <authors>openalpr</authors>
     <owners>openalpr</owners>

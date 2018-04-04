@@ -107,6 +107,11 @@ namespace OpenAlprApi.Model
         [DataMember(Name="processing_time", EmitDefaultValue=false)]
         public InlineResponse200ProcessingTime ProcessingTime { get; set; }
         /// <summary>
+        /// Content of the uploaded image
+        /// </summary>
+        [DataMember(Name = "image_bytes", EmitDefaultValue = false)]
+        public byte[] ImageBytes { get; set; }
+        /// <summary>
         /// Width of the uploaded image in pixels
         /// </summary>
         /// <value>Width of the uploaded image in pixels</value>
