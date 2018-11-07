@@ -90,8 +90,12 @@ namespace OpenAlprApi.Test
         [Test]
         public void MakeTest()
         {
-            // TODO unit test for the property 'Make'
-        }
+      var client = new OpenAlprApi.Api.DefaultApi();
+      using (var fs = new FileStream(@"C:\Users\John Bayly\Pictures\20160609_175829-Medium.jpg", FileMode.Open, FileAccess.Read)) {
+        var response = client.RecognizeFile(fs, "sk_04b482e308f68d2270ce060a", "gb", recognizeVehicle: 1, returnImage: 0);
+      }
+      // TODO unit test for the property 'Make'
+    }
         /// <summary>
         /// Test the property 'MakeModel'
         /// </summary>
