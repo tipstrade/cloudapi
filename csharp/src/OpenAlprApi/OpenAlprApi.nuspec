@@ -2,12 +2,12 @@
 <package >
   <metadata>
     <id>TipsTrade-OpenAlprApi-Net</id>
-    <version>$version$-r3</version>
+    <version>$version$-r4</version>
     <title>OpenAlprApi</title>
     <authors>openalpr</authors>
     <owners>openalpr</owners>
-    <licenseUrl>https://github.com/openalpr/cloudapi/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/openalpr/cloudapi</projectUrl>
+    <licenseUrl>https://github.com/tipstrade/cloudapi/blob/nuget-build/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/tipstrade/cloudapi/tree/nuget-build</projectUrl>
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>OpenAlprApi - the C# library for the OpenALPR Cloud API</description>
@@ -15,7 +15,7 @@
     <copyright>Copyright 2018</copyright>
     <tags>openalpr, alpr</tags>
     <dependencies>
-      <dependency id="RestSharp" version="106.2.1" />
+      <dependency id="RestSharp" version="106.5.4" />
       <dependency id="Newtonsoft.Json" version="11.0.2" />
     </dependencies>
   </metadata>
